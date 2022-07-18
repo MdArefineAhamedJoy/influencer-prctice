@@ -1,0 +1,73 @@
+ /* ------------font poppins------
+ ----------------------------------- */
+ @import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins:ital,wght@0,500;1,500&display=swap');
+ /*                         
+ ---------comont style     
+ -------------------------------*/
+ body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #AAAAAA;
+  
+ }
+
+/* ------------navaication part ---
+--------------------------------------*/
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600px;
+  margin-top: 95px;
+  background-color: aqua;
+}
+.link-manu{
+  margin-right: 3px;
+}
+.link-manu a{
+  text-decoration: none;
+  margin-right: 34px;
+  color:#3A3A3A;
+  font-size:16px;
+  font-weight: 600px;
+
+}
+/* top banner work */
+.top-banner{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.information{
+  width: 45%;
+  margin-left: 100px;
+}
+.main-header{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 45px;
+}
+.top-articale{
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.button{
+  display: inline-block;
+  text-decoration: none;
+  background-color: #E02C6D;
+  padding: 10px 24px;
+  border-radius: 41px;
+  color:azure
+}
+.main-img{
+  width:45%;
+  margin-left: 100px;
+}
+/* section online mark */
+.soponsor-ship{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
