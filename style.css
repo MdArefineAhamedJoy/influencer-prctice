@@ -8,18 +8,46 @@
   font-family: 'Poppins', sans-serif;
   background-color: #AAAAAA;
   
+
+ }
+ .all{
+  width: 90%;
+  margin: 0 5% ;
+  
+ }
+ /* .container-width{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ } */
+ .container-width{
+  
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
  }
 
 /* ------------navaication part ---
 --------------------------------------*/
 
 nav{
+ display: flex;
+ justify-content: center;
+ margin-left: 8px;
+ margin-right: 8px;
+
+
+}
+.all-rap{
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-weight: 600px;
   margin-top: 95px;
-  background-color: aqua;
+  width: 100%;
 }
 .link-manu{
   margin-right: 3px;
@@ -65,9 +93,54 @@ nav{
   width:45%;
   margin-left: 100px;
 }
-/* section online mark */
+/* section online mark*/
 .soponsor-ship{
+  width: 80%;
   margin-top: 100px;
   display: flex;
-  justify-content: space-evenly;
+ align-items: center;
+ margin-left: 10%;
+}
+.center-aling{
+ padding: 0 15px ;
+ margin-left: 10px;
+ margin-bottom: 100px;
+
+}
+/* photo gellary  */
+.container{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-raper{
+  width: 80%;
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ gap:10px;
+ margin-top: 10px;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.thumline{
+  width: 300px;
+  height: 256px;
+
+}
+.thumline img {
+   width: 100%;
+  border-radius: 5px;
+}
+.ditails{
+  margin-top: 10px;
+}
+.marigin-zero{
+ margin: 0;
 }
